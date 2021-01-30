@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 20px 0px 20px 0px;
 }
 
 .navbar span {
@@ -101,74 +102,54 @@ body {
 
 @media screen and (max-width: 700px) {
     .navbar {
-        background-color: #FADF9C;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .navbar span {
         margin: 20px 20px 5px 20px;
-        background-color: #EF807C;
-        width: 100px;
-        height: 100px;
     }
     .navlinks {
         margin: 10px;
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
     }
     .navlinks .navlink {
         margin: 10px;
-        background-color: #EF807C;
         width: 80px;
         height: 30px;
     }
     .main {
-        display: flex;
         flex-direction: column;
     }
     .mainContent {
         width: 100%;
         height: 90;
-        background-color: #86CC75;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         padding-bottom: 150px;
     }
     .mainContent section {
         height: 200px;
-        background-color: #8E66D7;
         margin: 10px 20px 10px 20px;
     }
     .aside {
         width: 100%;
-        background-color: #4D7CA9;
         padding: 70px 0px 70px 0px;
-        display: flex;
         flex-direction: row;
-        justify-content: center;
         align-items: center;
     }
     .aside .asideLink {
         margin: 15px;
-        background-color: #EF807C;
         width: 50px;
         height: 50px;
     }
     .footerContent {
-        background-color: #D8D8D8;
-        display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
     }
     .socialLinks {
         margin: 10px 20px 30px 20px;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -177,57 +158,27 @@ body {
 
 @media screen and (max-width: 400px) {
     .navbar {
-        background-color: #FADF9C;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .navbar span {
         margin: 20px 20px 5px 20px;
-        background-color: #EF807C;
         width: 80px;
         height: 80px;
     }
     .navlinks {
         margin: 5px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
     }
     .navlinks .navlink {
         margin: 10px;
-        background-color: #EF807C;
         width: 50px;
         height: 30px;
-    }
-    .main {
-        display: flex;
-        flex-direction: column;
-    }
-    .mainContent {
-        width: 100%;
-        height: 90;
-        background-color: #86CC75;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-bottom: 150px;
     }
     .mainContent section {
         height: 200px;
         background-color: #8E66D7;
         margin: 10px 20px 10px 20px;
-    }
-    .aside {
-        width: 100%;
-        background-color: #4D7CA9;
-        padding: 70px 0px 70px 0px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
     .aside .asideLink {
         margin: 15px;
@@ -235,24 +186,8 @@ body {
         width: 50px;
         height: 50px;
     }
-    .footerContent {
-        background-color: #D8D8D8;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
     .footerContent span {
-        margin: 20px 20px 0px 20px;
-        background-color: #EF807C;
         width: 80px;
         height: 80px;
-    }
-    .socialLinks {
-        margin: 10px 20px 30px 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 }
